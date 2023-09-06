@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+*{
+  text-align: center; 
+}
+
+body{
+  background-image: url(/kelli-tungay-2LJ4rqK2qfU-unsplash.jpg);
+  background-size: 1700px 900px;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+h1{
+  color: #fff;
+  background-color: rgb(231, 176, 73);
+  text-shadow: 0px 0px 10px black;
+  border-radius: 2px;
+  border: solid;
+  border-width: 2px;
+  border-color: black;
+}
+#btnClick {
+  padding: 50px;
+  background-color: rgb(231, 176, 73);
+  color: #fff;
+  font-size: 17px;
+  border: none;
+  text-shadow: 0px 0px 10px #000;
+  border-radius: 5px;
+  box-shadow: 0 2px 0 1px rgba(0,0,0,0.2);
+  cursor: pointer;
+}
+ 
+@keyframes hvr-wobble-top {
+  16.65% {
+    -webkit-transform: skew(-12deg);
+    transform: skew(-12deg);
+  }
+  33.3% {
+    -webkit-transform: skew(10deg);
+    transform: skew(10deg);
+  }
+  49.95% {
+    -webkit-transform: skew(-6deg);
+    transform: skew(-6deg);
+  }
+  66.6% {
+    -webkit-transform: skew(4deg);
+    transform: skew(4deg);
+  }
+  83.25% {
+    -webkit-transform: skew(-2deg);
+    transform: skew(-2deg);
+  }
+  100% {
+    -webkit-transform: skew(0);
+    transform: skew(0);
+  }
+}
+.hvr-wobble-top {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+}
+.hvr-wobble-top:hover, .hvr-wobble-top:focus, .hvr-wobble-top:active {
+  -webkit-animation-name: hvr-wobble-top;
+  animation-name: hvr-wobble-top;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+@keyframes rotate{
+  0%{
+      transform: rotate(0deg);
+  }
+  50%{
+      transform: rotate(180deg);
+  }
+  100%{
+      transform: rotate(360deg);
+  }
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin: auto;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+  background-color: #fff;
+}
+
+th {
+  background-color: rgb(231, 176, 73);
+  color: #000;
+}
+
+input {
+  width: 50px;
+}
+
+
+@-webkit-keyframes hvr-wobble-top {
+  16.65% {
+    -webkit-transform: skew(-12deg);
+    transform: skew(-12deg);
+  }
+  33.3% {
+    -webkit-transform: skew(10deg);
+    transform: skew(10deg);
+  }
+  49.95% {
+    -webkit-transform: skew(-6deg);
+    transform: skew(-6deg);
+  }
+  66.6% {
+    -webkit-transform: skew(4deg);
+    transform: skew(4deg);
+  }
+  83.25% {
+    -webkit-transform: skew(-2deg);
+    transform: skew(-2deg);
+  }
+  100% {
+    -webkit-transform: skew(0);
+    transform: skew(0);
+  }
+}
